@@ -330,6 +330,13 @@
   resolved "https://registry.npmjs.org/@colors/colors/-/colors-1.5.0.tgz"
   integrity sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==
 
+"@eidellev/adonis-stardust@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@eidellev/adonis-stardust/-/adonis-stardust-2.2.0.tgz#d06a54d42ccfb0202a92553db4a620053580d73c"
+  integrity sha512-RDWZrJw2WFrClGODD++3ihEr4gtFidPd2Ak/LKPHjer3LvbuYvyd3pNohOk79qdWztt+sTFK3zMCvLiWJYUmjA==
+  dependencies:
+    "@poppinss/matchit" "^3.1.2"
+
 "@eidellev/inertia-adonisjs@^7.0.0":
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/@eidellev/inertia-adonisjs/-/inertia-adonisjs-7.0.0.tgz#647c54bfc6d37cf45e32be1c60d1ce2c960a163f"

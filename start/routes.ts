@@ -20,4 +20,6 @@
 
 import Route from '@ioc:Adonis/Core/Route'
 
-Route.get('/', 'WelcomeController.index');
+Route.get('/', 'WelcomeController.index').as('root');
+Route.get('/about', 'WelcomeController.about').as('about');
+Route.get('/meow', 'WelcomeController.meow').as('meow');
