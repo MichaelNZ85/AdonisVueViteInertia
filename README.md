@@ -24,8 +24,14 @@ npm install
 3. Run the server
 
 ```
-node ace serve
+npm run dev
 ```
 
-4. Your app will be running at http://localhost:3333.
-5. Build something great!
+4. Run Vite
+
+```
+npm run vite:dev
+```
+
+5. Your app will be running at http://localhost:3333.
+6. Build something great!
