@@ -39,6 +39,8 @@
 			"@japa/preset-adonis/build/adonis-typings",
 			"vite/client",
 			"@eidellev/inertia-adonisjs"
-		]
+		],
+    "noUnusedLocals": false,
+    "noUnusedParameters": false
 	}
 }
