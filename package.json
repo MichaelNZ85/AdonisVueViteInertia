@@ -37,8 +37,14 @@
 		"@adonisjs/session": "^6.4.0",
 		"@adonisjs/shield": "^7.0.11",
 		"@adonisjs/view": "^6.1.6",
+		"@eidellev/inertia-adonisjs": "^7.0.0",
+		"@inertiajs/inertia": "^0.11.0",
+		"@inertiajs/inertia-vue3": "^0.6.0",
+		"@inertiajs/progress": "^0.2.7",
+		"@vitejs/plugin-vue": "^3.0.1",
 		"proxy-addr": "^2.0.7",
 		"reflect-metadata": "^0.1.13",
-		"source-map-support": "^0.5.21"
+		"source-map-support": "^0.5.21",
+		"vue": "^3.2.37"
 	}
 }
