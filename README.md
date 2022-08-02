@@ -20,18 +20,20 @@ git clone git@github.com:MichaelNZ85/AdonisInertiaVue3Boilerplate.git my-cool-pr
 cd my-cool-project
 npm install   
 ```
-
-3. Run the server
-
+3. Copy .env.example to .env
+```
+cp .env.example .env
+```
+4. Run the server
 ```
 npm run dev
 ```
 
-4. Run Vite
+5. Run Vite
 
 ```
 npm run vite:dev
 ```
 
-5. Your app will be running at http://localhost:3333.
-6. Build something great!
+6. Your app will be running at http://localhost:3333.
+7. Build something great!
