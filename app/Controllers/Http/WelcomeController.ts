@@ -8,11 +8,4 @@ export default class WelcomeController {
   public async about({ inertia, request }: HttpContextContract) {
     return inertia.render('About');
   }
-
-  public async meow({request}: HttpContextContract) {
-    const image = request.file('file');
-    if (image) {
-      console.log("meow");
-    }
-  }
 }
