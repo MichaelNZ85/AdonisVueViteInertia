@@ -1,21 +1,30 @@
 <script setup>
 import {ref} from 'vue';
+import {useForm} from '@inertiajs/inertia-vue3';
 
-let count = ref(0);
-const props = defineProps({
-  test: String
+const form = useForm({
+  name: null,
+  file: null
 })
+
+function submit() {
+  form.post('/meow')
+}
+
 </script>
 
 <template>
   <div class="box">
-    <div class="items"><h1>Inertia + Adonis + Vue 3!</h1>
-      <button class="button" @click="count = count + 1">Count is {{count}}</button>
-      <p>"{{props.test}}" was sent from the backend </p>
-      <inertia-link href="about">
-        Check out the technologies
-      </inertia-link>
-    </div>
+    <form @submit.prevent="submit">
+      <input type="text" v-model="form.name" />
+      <br>
+      <input type="file" @input="form.avatar = $event.target.files[0]" />
+      <progress v-if="form.progress" :value="form.progress.percentage" max="100">
+        {{form.progress.percentage}}
+      </progress>
+      <br>
+      <button type="submit">Submit</button>
+    </form>
   </div>
 </template>
 
